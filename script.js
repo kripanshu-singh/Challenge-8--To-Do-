@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
   if (value === "") {
     alert;
   } else {
-    task.push({
+    task.unshift({
       value: value,
       isChecked: false,
       hour:
